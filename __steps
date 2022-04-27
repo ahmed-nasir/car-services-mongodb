@@ -1,0 +1,15 @@
+/**
+*1. install jwt
+*2. requir in the project file
+*3. create a post api for access user data.
+*4. genarate a random number in termenal type node & hit enter
+    [require('crypto').randomBytes(64).toString('hex')]
+*5. set the random number in .env file
+*-----------------------------------
+*client site
+*-----------------------------------
+*1. login page a handler dia data POST kore AccessToken banate hobe.
+*2. sei token LocalStorage store kore rakhte hobe.
+*
+*
+*/
