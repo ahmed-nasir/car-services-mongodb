@@ -105,6 +105,12 @@ async function run() {
             res.send(result);
         })
 
+        // test Heroku
+        app.get('/test',(req,res)=>{
+            res.send('Testing succesfull');
+        })
+
+
     }
     finally {
         // await client.close();
